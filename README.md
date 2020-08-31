@@ -1,16 +1,11 @@
-# textRecognition
+# TextRecognition
 
-A new Flutter project.
+In this app use 2 packages
 
-## Getting Started
+1) Pick the image : https://pub.dev/packages/image_picker
 
-This project is a starting point for a Flutter application.
+2) Firebase Ml kit : https://pub.dev/packages/firebase_ml_vision
 
-A few resources to get you started if this is your first Flutter project:
+All details given in this two link
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It is compulsory to connect your application with your firebase project in your account.
