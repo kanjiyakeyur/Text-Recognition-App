@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
           if (word.text.isEmpty) {
             continue;
           }
-          print(word.text);
+          //print(word.text);
           text.add(word.text.toString());
         }
       }
@@ -61,13 +61,13 @@ class _HomePageState extends State<HomePage> {
               ? Expanded(
                   child: Center(
                     child: Container(
-                      padding: EdgeInsets.all(50),
+                      padding: EdgeInsets.all(48),
                       child: ListView.builder(
                         itemCount: text.length,
                         itemBuilder: (ctx, index) {
                           return Text(
                             text[index],
-                            style: TextStyle(fontSize: 30),
+                            style: TextStyle(fontSize: 28),
                           );
                         },
                       ),
